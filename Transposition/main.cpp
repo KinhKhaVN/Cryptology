@@ -28,5 +28,9 @@ int main () {
 
   std::printf("Ciphertext: %s\n", text);
 
+  Transposition(text);
+
+  std::printf("Easy to detransposition: %s\n", text);
+
   return 0;
 }
